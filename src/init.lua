@@ -46,7 +46,7 @@ end
 ]=]--
 
 function Attune:SetShiftInSemitones(Offset)
-    local pitchFactor = 2 ^ ((Offset + self.Tuning) / 12)
+    local pitchFactor = 2 ^ ((Offset + (self.Tuning / 100)) / 12)
     pitchFactor = math.max(0.5, math.min(2, pitchFactor))
     
     self.Effect.Octave = pitchFactor
