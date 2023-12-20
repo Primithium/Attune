@@ -24,7 +24,7 @@ Attune.__index = Attune
     creates a new Attune object and instantiates a [PitchShiftSoundEffect](https://create.roblox.com/docs/reference/engine/classes/PitchShiftSoundEffect) for future use.
 
     @param Sound Sound -- the [Sound](https://create.roblox.com/docs/reference/engine/classes/Sound) you want to tune.
-    @param Tuning number -- <since v0.1.1, default: 0> the offset (in cents) to apply to the sound before any operation. intended to be used for fine tuning samples.
+    @param Tuning number -- <since v0.1.2, default: 0> the offset (in cents) to apply to the sound before any operation. intended to be used for fine tuning samples.
     @return Attune
 ]=]--
 
