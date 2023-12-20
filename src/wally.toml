@@ -1,0 +1,10 @@
+[package]
+name = "primithium/attune"
+description = "a tiny utility module for pitching sounds with 12-TET"
+version = "0.1.1"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+authors = ["Primithium <primithium@gmail.com>"]
+
+[dependencies]
